@@ -99,6 +99,42 @@
     line-height: 1.6;
   }
 
+.blurb {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 24px 28px;
+  background: rgba(26,17,8,0.45);
+  border: 1px solid rgba(201,168,76,0.12);
+  border-left: 2px solid var(--blood);
+  animation: fadeUp 1s ease 0.4s both;
+}
+
+.blurb p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--parchment);
+  opacity: 0.85;
+  margin: 0;
+}
+
+.blurb-kerdes {
+  font-family: 'Maiden Orange', serif !important;
+  font-size: 1.05rem !important;
+  color: var(--gold-light) !important;
+  opacity: 1 !important;
+  font-style: italic;
+  padding: 10px 0;
+}
+
+.blurb-zaras {
+  font-style: italic;
+  opacity: 0.65 !important;
+  font-size: 0.88rem !important;
+}
+  
   /* ─── STAT BAR ───────────────────────────────────── */
   .stat-bar {
     display: flex;
@@ -520,6 +556,16 @@
     </div>
   </div>
 
+<div class="rune-divider"></div>
+
+<div class="blurb">
+  <p>Lépj be Elevron árnyakkal szőtt világába, és öltsd magadra Kragorn, a hatalomra szomjazó sötét varázsló szerepét. Egyetlen cél vezérel: megidézni Belraghort, magát a halált, és elragadni az erejét, hogy örök uralkodóvá válhass.</p>
+  <p>A végső rituáléhoz azonban tiltott ereklyéket kell megszerezned, miközben halálos ellenfelekkel, alattomos csapdákkal, ősi rejtvényekkel és a lelked mélyére temetett kétségekkel kell szembenézned. Minden döntésed közelebb visz a hatalomhoz… vagy egyenesen a végzeted felé sodor.</p>
+  <p class="blurb-kerdes">Feláldozol mindent a sötétség hatalmáért – vagy megőrzöd azt, ami még emberi benned?</p>
+  <p>Minden rítus, minden bűn nyomot hagy rajtad. Mert a valódi útvesztő nem a katakombákban húzódik… hanem a lelked mélyén.</p>
+  <p class="blurb-zaras">A döntés a te kezedben van. De az ár, amit fizetsz érte, örökre megváltoztathat.</p>
+</div>
+  
   <div class="rune-divider"></div>
   <p class="section-title">Mit kapsz előrendeléskor azonnal?</p>
 
